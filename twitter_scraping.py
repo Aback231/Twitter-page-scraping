@@ -88,5 +88,6 @@ def scraping(url):
         driver.close()
         driver.quit()
 
-while True:
-    scraping(url_twitter)
+if __name__ == "__main__":
+    while True:
+        scraping(url_twitter)
